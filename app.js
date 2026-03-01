@@ -7,3 +7,8 @@ score = 10;             // OK - reassignment allowed for let
 
 const MAX = 100;
 // MAX = 200;           // Error - cannot reassign a constant variable
+
+let homeAddress = "66 Hunter Avenue"; //Declared a new variable named homeAddress and assigned it the value "66 Hunter Avenue".
+let userAge = 47; //Declared a new variable named userAge and assigned it the value 47.
+console.log("User's home address is " + homeAddress);  // Prints the homeAddress's value in console
+console.log("User's age is " + userAge);      // Prints the userAge's value in console]
