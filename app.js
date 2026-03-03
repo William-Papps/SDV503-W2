@@ -89,6 +89,39 @@
 // const total = `Price: $${(12.99 * 3).toFixed(2)}`; // Output: Price: $38.97
 // console.log(total);
 
-const message = "Hello, JavaScript!";
+// const message = "Hello, JavaScript!";
 
-console.log(`The length of message is = ${message.length}`);
+// console.log(`The length of message is = ${message.length}`);
+
+// const fullName = "Ali Kahwaji";
+
+// Conditionals: if / else / switch
+
+// if / else if / else
+
+const score = 75;
+if (score >- 90) {
+    console.log("Grade: A");
+} else if (score > 80) {
+    console.log("Grade: B");
+} else if (score > 70) {
+    console.log("Grade: C");
+} else {
+    console.log("Grade: Below C");
+}
+
+// switch - great for exact matches
+const day = "Monday";
+switch (day) {
+    case "Monday":
+    case "Tuesday":
+        console.log("Start of the work week");
+        break;
+    case "Friday":
+        console.log("TGIF!");
+        break;
+    default:
+        console.log("Midweek day");
+}
+
+// False | 0 | "" (empty string) | null | undefined | NaN are all falsy values in JavaScript

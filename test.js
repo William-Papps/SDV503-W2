@@ -1,13 +1,13 @@
 const msg ="Hello World! JavaScript!";
 
 const newMsg = msg.split(" ");
-const part1 = console.log(newMsg[0]); // Output: Hello
-const part2 = console.log(newMsg[1]); // Output: World
-const part3 = console.log(newMsg[2]); // Output: JavaScript    
+const partOne = console.log(newMsg[0]); // Output: Hello
+const partTwo = console.log(newMsg[1]); // Output: World
+const partThree = console.log(newMsg[2]); // Output: JavaScript    
 
 
 
-console.log(part2, part3, part1); // Output: World JavaScript Hello
+console.log(partTwo, partThree, partOne); // Output: World JavaScript Hello
 
 // let strings = {
 //     msgOriginal: msg,
